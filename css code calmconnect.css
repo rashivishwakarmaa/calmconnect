@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 40px;
+}
+
+#hero {
+    text-align: center;
+    background-image: url('images/mental-health-support.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero h2 {
+    color: white;
+}
+
+#hero p {
+    color: white;
+    opacity: 0.8;
+}
+
+#hero button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#domains {
+    margin-top: 40px;
+}
+
+#domains ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#domains ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#domains ul li a {
+    text-decoration: none;
+}
+
+section h3 {
+    margin-top: 20px;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
